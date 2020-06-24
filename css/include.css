@@ -1,0 +1,174 @@
+@charset "utf-8";
+
+#header{
+    text-align:center; 
+    margin:0 50px;
+    position:relative;
+    line-height:70px;
+    height:70px;
+}
+#header a{}
+#header h1{
+    position:absolute;
+    left:20px;
+    font-size:0;
+}
+#header h1 a{
+    display:block;
+}
+#header h1 img{
+    vertical-align:middle; 
+}
+
+.gnb{ 
+    padding:0 40px;
+    font-size:14px;
+    font-weight:bold;
+    display:inline-block;
+}
+.gnb li{
+    float:left;
+    margin:0 50px; 
+}
+.gnb a{
+    color:#333; 
+}
+
+.util{ 
+    position:absolute;
+    right:0;
+    top:0;
+    font-size:12px;
+}
+.util li{
+    float:left;
+}
+.util li:after{
+    content:"";
+    display:inline-block;
+    margin:0 10px; 
+    width:1px;
+    height:10px;
+    background:#dddddd;
+}
+.util li:last-child:after{
+    display:none; 
+}
+.search{
+    width:60px;
+    height:70px;
+    background:#043285;
+}
+.util a{}
+
+
+/*footer*/
+#footer{
+    background:#474B50;
+    font-size:14px;
+    padding:30px 0;
+}
+
+.topBtn{
+    position:fixed;
+    right:50%;
+    margin-right:-800px;
+    bottom:0;
+}
+.topBtn a{}
+.topBtn img{}
+
+.fTop{
+    border-bottom:1px solid #d5d5d5;
+    padding-bottom:15px;
+    margin-bottom:15px;
+}
+.fTop li{}
+.fTop li a{}
+
+.fMenu{
+    float:left;
+}
+.fMenu li{
+    float:left;
+}
+.fMenu li::after{
+    content:"";
+    display:inline-block;
+    vertical-align:middle;
+    width:1px;
+    height:14px;
+    background:#d5d5d5;
+    margin:0 20px;
+}
+.fMenu li:last-child:after{
+    display:none;
+}
+.fMenu li a{
+    color:#fff;
+    vertical-align:middle;
+}
+
+.fSns{
+    float:right;
+}
+.fSns li{
+    float:left;
+    margin-left:10px;
+}
+.fSns li a{}
+.fSns li img{}
+
+.fbottom{
+    color:#ccc;
+    position:relative; 
+}
+
+.fBMenu{}
+.fBMenu li{
+    float:left;
+    margin-right:30px;
+}
+.fBMenu li a{
+    color:#ccc;
+}
+.menuColor{
+    color:#00a3cc !imprtant;
+}
+.copy{
+    font-size:12px;
+    position:absolute;
+    top:0;
+    right:0;
+}
+
+.fInfo{
+    margin-top:30px;
+}
+.fInfo p{
+    color:#ccc;
+}
+
+.fInfo p span{}
+.fInfo p span::after{
+    content:"";
+    display:inline-block;
+    width:1px;
+    height:12px;
+    background:#8c8e90;
+    margin:0 10px;
+}
+.fInfo p span:last-child::after{
+    display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
